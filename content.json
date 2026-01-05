@@ -1,0 +1,42 @@
+{
+  "studioName": "Pilates Iconic",
+
+  "heroKicker": "Private Pilates • White Salmon, WA",
+  "heroTitle": "Precise movement. Quiet strength.",
+  "heroLead": "Thoughtful, method-driven Pilates that builds stability, mobility, and confidence—one intentional session at a time.",
+  "microLine": "By appointment • Mon–Fri",
+
+  "packagesLead": "Private + virtual options. Choose a single session or a pack.",
+
+  "packagesHtml": "\n<div class=\"price-row\">\n  <div>\n    <div class=\"price-name\">Private Session 6 Pack</div>\n    <div class=\"price-meta\">Private Session</div>\n  </div>\n  <div class=\"price-right\">$408.00</div>\n</div>\n<div class=\"price-row\">\n  <div>\n    <div class=\"price-name\">Private Session</div>\n    <div class=\"price-meta\">Single session</div>\n  </div>\n  <div class=\"price-right\">$68.00</div>\n</div>\n<div class=\"price-row\">\n  <div>\n    <div class=\"price-name\">Zoom Semi Private 6 Pack</div>\n    <div class=\"price-meta\">Semi-private (virtual)</div>\n  </div>\n  <div class=\"price-right\">$204.00</div>\n</div>\n<div class=\"price-row\">\n  <div>\n    <div class=\"price-name\">Zoom Private Session 6 Pack</div>\n    <div class=\"price-meta\">Private (virtual)</div>\n  </div>\n  <div class=\"price-right\">$408.00</div>\n</div>\n<div class=\"price-row\">\n  <div>\n    <div class=\"price-name\">Zoom Private Session</div>\n    <div class=\"price-meta\">Single session (virtual)</div>\n  </div>\n  <div class=\"price-right\">$68.00</div>\n</div>\n<div class=\"price-row\">\n  <div>\n    <div class=\"price-name\">Zoom Semi Private Session</div>\n    <div class=\"price-meta\">Single session (virtual)</div>\n  </div>\n  <div class=\"price-right\">$34.00</div>\n</div>\n",
+
+  "schedulingLead": "Reach out with your goals and availability—we’ll find a schedule that fits.",
+  "quoteTitle": "A calm, focused practice.",
+  "quote": "“Change happens through movement and movement heals.”",
+  "panelNote": "Helpful details: preferred days/times, injuries, private vs virtual.",
+
+  "aboutIntro": "Experience, precision, and thoughtful progress.",
+  "aboutBody": "Renata Jarvi is a lifelong movement instructor with over 20 years of experience teaching dance, yoga, and Pilates. She earned her Metropolitan Authentic Training (MAT) certification in 2011 and has gone on to study intensively with master instructors; Dorothee VandeWalle, Mejo Wiggin, Kathy Ross-Nash, Blossom Leilani Crawford, and many more! Through Pilates she enjoys helping people at all levels with their physical goals.",
+  "aboutCaption": "Renata Jarvi • Instructor",
+
+  "policiesLead": "Thank you for reviewing before purchase and scheduling.",
+  "policiesHtml": "\n<details open>\n  <summary>Refunds</summary>\n  <div class=\"acc-body\"><p>Purchases can be refunded with a 25% processing fee.</p></div>\n</details>\n<details>\n  <summary>Inclement Weather</summary>\n  <div class=\"acc-body\"><p>Cancelling your appointment due to dangerous driving conditions will NOT accrue a cancellation fee; your safety is paramount. Your session can proceed virtually.</p></div>\n</details>\n<details>\n  <summary>Cancellations</summary>\n  <div class=\"acc-body\"><p>Pilates Iconic has a strict 24hr cancellation policy. Cancellations made within the 24hr window will be subject to the full charge.</p></div>\n</details>\n",
+
+  "studioPoliciesLead": "Clear expectations so everything runs smoothly.",
+  "studioPoliciesHtml": "\n<details open>\n  <summary>Diversity &amp; Inclusion</summary>\n  <div class=\"acc-body\"><p>Pilates Iconic is committed to providing a comfortable and welcoming environment to all lifestyles, genders, and races. Fostering an environment free of judgement and continuing to research, listen, and learn are our top priorities. Pilates Iconic strives to be a safe space where everyone can work towards their goals feeling secure and positive in their body.</p></div>\n</details>\n<details>\n  <summary>COVID Procedures</summary>\n  <div class=\"acc-body\"><p>All clients of Pilates Iconic must be vaccinated at this time. Please wait in your car until the instructor comes to get you or you receive an alert via text. Mask wearing is optional and all choices will be respected. If you feel sick please do NOT show up to your session. If you're experiencing symptoms (but feel able to work out) your session can proceed virtually.</p></div>\n</details>\n",
+
+  "address": "24 McIlroy Creek Road<br>White Salmon, WA 98672",
+  "hours": "Mon–Fri 7:00am–4:00pm<br>Sat–Sun Closed",
+
+  "shopUrl": "https://www.pilatesiconic.com/s/shop",
+  "packagesUrl": "https://www.pilatesiconic.com/shop/packages/3",
+
+  "mapsUrl": "https://www.google.com/maps?q=24+McIlroy+Creek+Road+White+Salmon+WA+98672",
+  "phoneLink": "tel:+18017555482",
+  "emailLink": "mailto:pilatesiconic@gmail.com",
+
+  "instagramUrl": "https://www.instagram.com/pilatesiconic/",
+  "facebookUrl": "https://www.facebook.com/",
+
+  "paymentsLine": "Apple Pay · Google Pay · Visa · Mastercard · American Express · Discover · JCB · Afterpay · Interac"
+}

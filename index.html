@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Pilates Iconic | Pilates in White Salmon, WA</title>
+  <meta name="description" content="Pilates Iconic — private Pilates in White Salmon, WA. Precise instruction for strength, mobility, and recovery. Contact to schedule." />
+  <link rel="canonical" href="https://www.pilatesiconic.com/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Pilates Iconic" />
+  <meta property="og:title" content="Pilates Iconic | Pilates in White Salmon, WA" />
+  <meta property="og:description" content="Private Pilates in White Salmon, WA — contact to schedule." />
+  <meta property="og:url" content="https://www.pilatesiconic.com/" />
+  <meta property="og:image" content="https://www.pilatesiconic.com/images/og.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pilates Iconic | Pilates in White Salmon, WA" />
+  <meta name="twitter:description" content="Private Pilates in White Salmon, WA — contact to schedule." />
+  <meta name="twitter:image" content="https://www.pilatesiconic.com/images/og.jpg" />
+
+  <link rel="icon" href="images/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Local Business schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pilates Iconic",
+    "url": "https://www.pilatesiconic.com/",
+    "telephone": "+1-801-755-5482",
+    "email": "pilatesiconic@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "24 McIlroy Creek Road",
+      "addressLocality": "White Salmon",
+      "addressRegion": "WA",
+      "postalCode": "98672",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" aria-label="Pilates Iconic home">
+        <span class="mark">◦</span>
+        <span class="brand-text" data-bind="studioName">Pilates Iconic</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+
+        <!-- Items & Packages -->
+        <div class="dropdown">
+          <button class="dropbtn" aria-expanded="false">
+            Items &amp; Packages <span aria-hidden="true">▾</span>
+          </button>
+          <div class="dropmenu" role="menu">
+            <a role="menuitem" data-bind-href="shopUrl" href="#" target="_blank" rel="noopener">Shop All</a>
+            <a role="menuitem" href="#packages">Packages</a>
+          </div>
+        </div>
+
+        <a href="#scheduling">Scheduling</a>
+        <a href="#about">About</a>
+        <a href="#studio-policies">Studio Policies</a>
+
+        <!-- Keep top nav minimal; policies under More -->
+        <div class="dropdown">
+          <button class="dropbtn" aria-expanded="false">
+            More <span aria-hidden="true">▾</span>
+          </button>
+          <div class="dropmenu" role="menu">
+            <a role="menuitem" href="#policies">Policies</a>
+            <a role="menuitem" data-bind-href="instagramUrl" href="#" target="_blank" rel="noopener">Instagram</a>
+            <a role="menuitem" data-bind-href="facebookUrl" href="#" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+
+        <a class="btn small" data-bind-href="emailLink" href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker" data-bind="heroKicker">Private Pilates • White Salmon, WA</p>
+          <h1 data-bind="heroTitle">Precise movement. Quiet strength.</h1>
+          <p class="lead" data-bind="heroLead">
+            Thoughtful, method-driven Pilates that builds stability, mobility, and confidence—one intentional session at a time.
+          </p>
+
+          <div class="actions">
+            <a class="btn" data-bind-href="emailLink" href="#">Email to schedule</a>
+            <a class="btn ghost" data-bind-href="phoneLink" href="#">Call / Text</a>
+          </div>
+
+          <p class="micro" data-bind="microLine">By appointment • Mon–Fri</p>
+        </div>
+
+        <figure class="media hero-media">
+          <img src="images/hero.jpg" alt="Pilates studio" loading="eager" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages" class="section">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <h2>Packages</h2>
+          <p class="muted" data-bind="packagesLead">Private + virtual options. Choose a single session or a pack.</p>
+        </div>
+
+        <div class="price-list">
+          <div class="tiny muted" id="packages-status">Loading packages…</div>
+          <div id="packages-mount" data-bind="packagesHtml"></div>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn" data-bind-href="shopUrl" href="#" target="_blank" rel="noopener">Shop All</a>
+          <a class="btn ghost" data-bind-href="packagesUrl" href="#" target="_blank" rel="noopener">Packages</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULING -->
+    <section id="scheduling" class="section alt">
+      <div class="wrap split">
+        <div>
+          <h2>Scheduling</h2>
+          <p class="muted" data-bind="schedulingLead">
+            Reach out with your goals and availability—we’ll find a schedule that fits.
+          </p>
+
+          <div class="info-grid">
+            <div class="info">
+              <h3>Email</h3>
+              <p>Share availability + goals and I’ll reply with options.</p>
+              <a class="link" data-bind-href="emailLink" href="#">pilatesiconic@gmail.com</a>
+            </div>
+
+            <div class="info">
+              <h3>Call / Text</h3>
+              <p>Fast, direct scheduling.</p>
+              <a class="link" data-bind-href="phoneLink" href="#">801-755-5482</a>
+            </div>
+          </div>
+
+          <p class="tiny muted" data-bind="panelNote"></p>
+        </div>
+
+        <aside class="panel">
+          <h3 data-bind="quoteTitle">A calm, focused practice.</h3>
+          <p class="quote" data-bind="quote">“Change happens through movement and movement heals.”</p>
+          <div class="panel-actions">
+            <a class="btn full" data-bind-href="emailLink" href="#">Email to schedule</a>
+            <a class="btn ghost full" data-bind-href="phoneLink" href="#">Call / Text</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap split">
+        <div>
+          <h2>About</h2>
+          <p class="muted" data-bind="aboutIntro">Experience, precision, and thoughtful progress.</p>
+          <div class="prose" data-bind="aboutBody"></div>
+        </div>
+
+        <figure class="media portrait">
+          <img src="images/renata.jpg" alt="Instructor portrait" loading="lazy" />
+          <figcaption class="caption" data-bind="aboutCaption">Renata Jarvi • Instructor</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- POLICIES -->
+    <section id="policies" class="section alt">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <h2>Policies</h2>
+          <p class="muted" data-bind="policiesLead">Thank you for reviewing before purchase and scheduling.</p>
+        </div>
+
+        <div class="accordion">
+          <div class="tiny muted" id="policies-status">Loading policies…</div>
+          <div id="policies-mount" data-bind="policiesHtml"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDIO POLICIES -->
+    <section id="studio-policies" class="section">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <h2>Studio Policies</h2>
+          <p class="muted" data-bind="studioPoliciesLead">Clear expectations so everything runs smoothly.</p>
+        </div>
+
+        <div class="accordion">
+          <div class="tiny muted" id="studio-policies-status">Loading studio policies…</div>
+          <div id="studio-policies-mount" data-bind="studioPoliciesHtml"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section id="visit" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Visit</h2>
+          <p class="muted">White Salmon, Washington</p>
+        </div>
+
+        <div class="visit-grid">
+          <div class="info">
+            <h3>Location</h3>
+            <p data-bind="address">24 McIlroy Creek Road<br>White Salmon, WA 98672</p>
+            <a class="link" data-bind-href="mapsUrl" href="#" target="_blank" rel="noopener">Get directions →</a>
+          </div>
+
+          <div class="info">
+            <h3>Hours</h3>
+            <p data-bind="hours">Mon–Fri 7:00am–4:00pm<br>Sat–Sun Closed</p>
+          </div>
+
+          <div class="info">
+            <h3>Contact</h3>
+            <p>
+              <a class="link" data-bind-href="phoneLink" href="#">801-755-5482</a><br>
+              <a class="link" data-bind-href="emailLink" href="#">pilatesiconic@gmail.com</a>
+            </p>
+          </div>
+        </div>
+
+        <p class="tiny muted payments" data-bind="paymentsLine"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap foot-inner">
+      <p class="muted">© <span id="year"></span> <span data-bind="studioName">Pilates Iconic</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
